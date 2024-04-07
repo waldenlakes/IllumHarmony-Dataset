@@ -45,11 +45,14 @@ In addition to the IllumHarmony-Dataset, we also built [a small image harmonizat
 If you use these data in your research, please cite:
 
 ```
-@article{hu2023sidnet,
-  title={{SIDNet}: Learning Shading-aware Illumination Descriptor for Image Harmonization},
+@article{hu2024sidnet,
+  title={{SIDNet}: Learning Shading-Aware Illumination Descriptor for Image Harmonization},
   author={Hu, Zhongyun and Nsampi, Ntumba Elie and Wang, Xue and Wang, Qing},
-  journal={IEEE Transactions on Emerging Topics in Computational Intelligence},
-  year={2023}
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
+  year={2024},
+  volume={8},
+  number={2},
+  pages={1290-1302}
 }
 ```
 

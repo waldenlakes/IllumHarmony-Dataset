@@ -37,6 +37,11 @@ We provide python scripts in the foloder [./data_utils](./data_utils) for loadin
 
 If you want to use the final composed images (including input, mask, and GT) directly, please download them from [OneDrive](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/zy_h_mail_nwpu_edu_cn/EcqoHdjvZxpFimWcRd9Zu2EBKvwbsqFMv8vvsHRfRA5NJw?e=gVyzcZ) or [BaiduCloud](https://pan.baidu.com/s/1e2AsV70t3kv74UbKXh2URQ?pwd=a3zq).
 
+## Rendering
+We provide the Python script in the folder [./blender](./blender) for rendering foreground images using your hdr panoramas and mesh. Notes: The Python script is tested in blender-2.83.9-linux64.
+
+    ./blender --background --python render_demo.py -- 0 0
+
 ## Real Data from User Study
 In addition to the IllumHarmony-Dataset, we also built [a small image harmonization dataset](https://drive.google.com/file/d/1x33zHuDCfWkjNV-h-ito3zVkR5wxMIVf/view?usp=sharing) consisting of 58 real composite images for user study. We provided [our SIDNet results](https://drive.google.com/file/d/1GIT5WKoM9jdOTHM6Un2kQQLY2ss58KA8/view?usp=sharing) on this small dataset to facilitate possible future comparative studies.
 
